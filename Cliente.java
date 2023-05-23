@@ -31,14 +31,14 @@ public class Cliente {
         observableGenero.addObserver(cliente3);
         observableGenero.addObserver(cliente4);
         observableGenero.addObserver(cliente5);
-        observableGenero3.notifyObservers();
-        
+        observableGenero.notifyObservers();
+
         observableGenero1.addObserver(cliente1);
         observableGenero1.addObserver(cliente2);
         observableGenero1.addObserver(cliente3);
         observableGenero1.addObserver(cliente4);
         observableGenero1.addObserver(cliente5);
-        observableGenero3.notifyObservers();
+        observableGenero1.notifyObservers();
 
         observableGenero2.addObserver(cliente1);
         observableGenero2.addObserver(cliente2);
@@ -54,7 +54,7 @@ public class Cliente {
         observableGenero3.addObserver(cliente5);
         observableGenero3.notifyObservers();
 
-        observableGenero3.notifyObservers();
+        
 
     }
 }
